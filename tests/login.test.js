@@ -19,7 +19,12 @@ export default function () {
         },
     };
 
-    http.post(url, payload, params);
+    const response = http.post(url, payload, params);
+
+    check(response, {
+        'Validar que o Status é 200': (r) => r.status === 200,
+        'Validar que o Token é string': (r) => typeof (r.json().token) == 'string',
+    });
 
     sleep(1);
 }
