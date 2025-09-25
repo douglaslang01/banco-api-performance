@@ -1,7 +1,7 @@
 # Banco API Performance  
 
 Repositório destinado à realização de testes de performance utilizando **JavaScript** e **K6**.  
-O projeto tem como objetivo avaliar o desempenho, resiliência e estabilidade de endpoints da API do Banco.  
+O projeto tem como objetivo avaliar o desempenho, resiliência e estabilidade de endpoints da API do [banco-api](https://github.com/douglaslang01/banco-api).  
 
 ---
 
