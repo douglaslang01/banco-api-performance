@@ -83,5 +83,3 @@ $env:BASE_URL="https://sua-api.com" ; $env:K6_WEB_DASHBOARD="true" ; $env:K6_WEB
 O arquivo **`html-report.html`** será gerado dentro do diretório atual ou em `reports/`, dependendo da configuração.  
 
 ---
-
-👉 [Acesse o repositório no GitHub](https://github.com/douglaslang01/banco-api-performance)  
