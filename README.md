@@ -60,14 +60,14 @@ banco-api-performance/
 ## ▶️ Execução dos Testes  
 
 ### Execução simples no K6  
-```powershell
+```Powershell
 k6 run .\scripts\nomeDoTeste.js
 ```
 
 ### Execução com relatório em tempo real  
 O K6 possui um **dashboard web** que pode ser habilitado via variáveis de ambiente:  
 
-```powershell
+```Powershell
 $env:BASE_URL="https://sua-api.com" ; $env:K6_WEB_DASHBOARD="true" ; k6 run .\scripts\nomeDoTeste.js
 ```
 
